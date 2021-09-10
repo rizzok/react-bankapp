@@ -1,0 +1,28 @@
+.accounts {
+  width: 100%;
+}
+
+.accounts h2 {
+  text-align: center;
+}
+
+.balance {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.account-history {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.account-history .description,
+.account-history .date {
+  text-align: left;
+}
+
+.account-history .amount {
+  text-align: right;
+}
