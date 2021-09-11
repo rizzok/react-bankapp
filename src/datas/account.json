@@ -1,20 +1,32 @@
 [
   {
     "id": 1,
-    "description": "Cdiscount",
-    "date": "2021-07-01",
-    "amount": 99.99
+    "description": "Virement",
+    "date": "2021-06-20",
+    "amount": 500
   },
   {
     "id": 2,
-    "description": "Amazon",
-    "date": "2021-07-28",
-    "amount": 19
+    "description": "Cdiscount",
+    "date": "2021-07-01",
+    "amount": -99.99
   },
   {
     "id": 3,
+    "description": "Amazon",
+    "date": "2021-07-28",
+    "amount": -19
+  },
+  {
+    "id": 4,
+    "description": "Leboncoin",
+    "date": "2021-08-07",
+    "amount": 25
+  },
+  {
+    "id": 5,
     "description": "Top Achat",
     "date": "2021-08-15",
-    "amount": 54
+    "amount": -54
   }
 ]

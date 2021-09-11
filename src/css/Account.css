@@ -1,0 +1,60 @@
+.account {
+  width: 100%;
+}
+
+.account h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.balance {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.account-history {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 0px #00000014;
+}
+
+.account-history tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.account-history td,
+.account-history th {
+  padding: 1rem;
+  text-align: left;
+}
+
+.account-history th {
+  background-color: #0c85b3;
+  color: #fff;
+  font-weight: 400;
+}
+.account-history th:first-child {
+  border-radius: 10px 0 0 0;
+}
+.account-history th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.account-history .amount {
+  text-align: right;
+}
+
+.amount .value {
+  padding: 0 0.5rem;
+}
+
+.amount .positive {
+  background-color: #ebfaeb;
+  border: 2px solid #c1dbc1;
+  color: #016001;
+  border-radius: 5px;
+  display: inline-block;
+}

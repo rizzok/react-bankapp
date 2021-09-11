@@ -2,14 +2,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
   margin-bottom: 25px;
   box-shadow: 0 0px 6px 0px #0000002e;
+  background-color: var(--primary-color);
+  color: #fff;
 }
-
 #title {
   font-size: 1.4rem;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .slogan {

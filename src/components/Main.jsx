@@ -1,10 +1,12 @@
 import '../css/Main.css';
-import Accounts from './Accounts';
+import Account from './Account';
+import NavBar from './NavBar';
 
 export default function Main() {
   return (
     <main>
-      <Accounts />
+      <NavBar />
+      <Account />
     </main>
   );
 }
